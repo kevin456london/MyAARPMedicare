@@ -50,3 +50,61 @@ To run this project locally:
 
 ```bash
 git clone https://github.com/your-username/MyAARPMedicare.git
+
+Navigate to the Project Directory:
+
+cd MyAARPMedicare
+
+Install Dependencies:
+
+npm install
+
+Start the Development Server:
+
+npm start
+Contribution Guidelines
+
+We welcome contributions! To contribute:
+
+Fork the repository.
+
+Create a new branch for your changes.
+
+Follow the project's coding standards.
+
+Commit your changes and push to your fork.
+
+Open a pull request to the main branch.
+
+Refer to the CONTRIBUTING.md file for detailed guidelines.
+
+Getting Help
+
+If you need help, open an issue on GitHub with a clear description and steps to reproduce. Maintainers and contributors will respond when available.
+
+{
+"name": "myaarpmedicare",
+"version": "1.0.0",
+"private": true,
+"description": "Sample React starter for MyAARPMedicare",
+"main": "src/index/index.js",
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test --env=jsdom",
+"eject": "react-scripts eject"
+},
+"author": "Kevin London <kevin456london@outlook.com>",
+"license": "MIT",
+"dependencies": {
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-scripts": "5.0.1"
+},
+"devDependencies": {
+"@testing-library/react": "^13.4.0",
+"@testing-library/jest-dom": "^5.16.5"
+}
+}
+
+
